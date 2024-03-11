@@ -1,0 +1,6 @@
+hashlib
+argparse
+sys
+colorama
+pyfiglet
+time
