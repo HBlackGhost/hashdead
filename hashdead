@@ -37,7 +37,7 @@ if args.ALGORITHM != None and args.HASH_FILE != None and args.WORDLIST != None :
                 if s == True:
                     print(Fore.LIGHTGREEN_EX+f"\n[-]{Fore.LIGHTYELLOW_EX} We Found Your Hash {Fore.WHITE}--> ",Fore.LIGHTRED_EX+word)
                 else:
-                    menues.not_found
+                    menues.not_found()
             menues.processing_comp()
             menues.end()
     except KeyboardInterrupt :
