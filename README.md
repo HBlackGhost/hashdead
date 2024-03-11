@@ -19,5 +19,5 @@ provided hash file. It supports MD5, SHA-1, and SHA-256 algorithms
  git clone https://github.com/HBlackGhost/hashdead.git
  cd /Downloads/hashdead
  pip3 install -r requirements.txt
- python3 hashdead -A [ md5,sha1,sha265 ] -HF [ The Path of Hash File ] -W [ The Path Of Wordlist File ]
+ python3 hashdead -A  [md5,sha1,sha265  -HF  [The Path of Hash File] -W  [The Path Of Wordlist File]
 ```
