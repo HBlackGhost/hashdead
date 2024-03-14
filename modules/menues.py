@@ -8,7 +8,7 @@ def one_line():
     time.sleep(2)
     print(Fore.LIGHTRED_EX+"[!]"+Fore.LIGHTGREEN_EX+f"{Fore.LIGHTRED_EX} hashdead{Fore.LIGHTGREEN_EX} Using Only Command-Line ")
     time.sleep(2)
-    print (Fore.LIGHTRED_EX+"[!]"+Fore.LIGHTYELLOW_EX+" Try that : "+Fore.RESET+"python3 hashdead -h")  
+    print (Fore.LIGHTRED_EX+"[!]"+Fore.LIGHTYELLOW_EX+" Try that : "+Fore.RESET+"python3 hashdead.py -h")  
     time.sleep(2)
 def processing_comp():
     sys.stdout.write('\r')
