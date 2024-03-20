@@ -15,7 +15,7 @@ praser.add_argument('-U' ,dest="UP" ,help="The Path Of hashdead")
 args = praser.parse_args()
 if args.UP != None :
     com= subprocess.run(f'sudo {args.UP}/updating_tool.sh',shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE,text=True)
-    print(com.stderr,com.stdout)
+    print(Fore.LIGHTGREEN_EX+"[-]",com.stderr,com.stdout)
     exit()
 elif args.UP == None :
     if args.ALGORITHM != None and args.HASH_FILE != None and args.WORDLIST != None :
