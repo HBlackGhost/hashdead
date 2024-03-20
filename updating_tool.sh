@@ -2,8 +2,9 @@
 s=$(cd /home/kali/ && find -name hashdead)
 if [ "$s" == '' ]
 then
-echo "Not found"
+echo "We can't found your tool"
 else
-echo "we found your tool and will update now"
+echo "We found your tool and will update now"
+sleep 3
 cd /home/kali && cd $s && git pull 
 fi
